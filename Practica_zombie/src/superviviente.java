@@ -1,10 +1,10 @@
-public class Superviviente extends Personaje{
+public class superviviente extends personaje {
     public static final int vidaMax=20;
     private int botiquin;
     private int armas;
     private int protecciones;
 
-    public Superviviente() {
+    public superviviente() {
         super(20,4);
         this.botiquin = 0;
         this.armas = 0;

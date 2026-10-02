@@ -1,8 +1,8 @@
-public abstract class Personaje {
+public abstract class personaje {
     private int vidaActual;
     private int ataque;
 
-    public Personaje(int vidaActual, int ataque) {
+    public personaje(int vidaActual, int ataque) {
         this.vidaActual = vidaActual;
         this.ataque = ataque;
     }
