@@ -89,8 +89,7 @@ public class Superviviente extends Personaje {
     @Override
     public int ataca(GestorDados dados) {
         int ataque = getAtaque() + this.armas;
-        int valor = dados.tirarDado(ataque);
-        return valor;
+        return dados.tirarDado(ataque);
     }
 
     @Override
